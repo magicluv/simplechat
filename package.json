@@ -1,0 +1,27 @@
+{
+  "name": "simplechat",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "jast",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pucka906/simplechat.git"
+  },
+  "keywords": [
+    "node.js",
+    "express"
+  ],
+  "author": "pucka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pucka906/simplechat/issues"
+  },
+  "homepage": "https://github.com/pucka906/simplechat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
