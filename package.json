@@ -2,10 +2,11 @@
   "name": "simplechat",
   "version": "1.0.0",
   "description": "chat",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jast",
-    "start": "node index.js"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/pucka906/simplechat#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
   }
 }
